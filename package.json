@@ -1,0 +1,28 @@
+{
+  "name": "basic-starter",
+  "version": "1.0.0",
+  "description": "Basic starter for my personal projects",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react": "npm start --prefix view",
+    "dev": "nodemon server.js"
+  },
+  "author": "Łukasz Gronczakiewicz",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.14",
+    "nodemailer": "^6.4.14",
+    "request": "^2.88.2"
+  }
+}
